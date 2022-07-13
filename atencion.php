@@ -23,32 +23,4 @@ if ($_SESSION['atencion']==1)
               <div class="col-md-12">
                   <div class="box">
                     <div class="box-header with-border">
-                          <h1 class="box-title">Atención <button class="btn btn-success" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Agregar</button></h1>
-                        <div class="box-tools pull-right">
-                        </div>
-                    </div>
-                    <!-- /.box-header -->
-                    
-                  </div><!-- /.box -->
-              </div><!-- /.col -->
-          </div><!-- /.row -->
-      </section><!-- /.content -->
-
-    </div><!-- /.content-wrapper -->
-  <!--Fin-Contenido-->
-<?php
-}
-else
-{
-  require 'noacceso.php';
-}
-
-require 'footer.php';
-?>
-<script type="text/javascript" src="scripts/atencion.js"></script>
-<?php 
-}
-ob_end_flush();
-?>
-
-
+                         
